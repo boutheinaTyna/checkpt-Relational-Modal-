@@ -1,0 +1,11 @@
+Relational model Checkpoint:
+
+Hotel (Hotel_id, Hotel_name , #Type_id) 
+
+Type (Type_id , Type_name ) 
+
+Room (Room_id, Floor , #Hotel_id , #Category_id ) 
+
+Category ( Category_id , Category_name , Price, Beds_Number ) 
+
+Emloyee (Employee_id , Employee_name , Employee_Speciality , #Hotel_id , #Leader_id )
